@@ -1,0 +1,9 @@
+{
+	"name": "factoryadfpro",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7ecbf167-a9df-4c17-9c15-ec8bf58e5fb1",
+		"tenantId": "b20b9722-0b7a-421d-aee1-b719dab96156"
+	}
+}

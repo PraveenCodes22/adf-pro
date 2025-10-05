@@ -1,0 +1,29 @@
+{
+	"name": "TriggerPipeline",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Scheduled_pipeline",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"p_schema": "dbo",
+					"p_table": "Orderss"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2025-09-30T16:55:00",
+				"endTime": "2025-10-04T23:59:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
